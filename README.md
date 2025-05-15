@@ -1,145 +1,72 @@
-# MOCKIN-AI-Powered-Interview-Platform
-MockIN is a next-generation AI-powered mock interview platform designed to provide personalized, real-time, and data-driven interview preparation. It leverages advanced Natural Language Processing (NLP), Machine Learning (ML), and the Gemini API to generate dynamic, resume-aware interview questions and provide multi-dimensional feedback based on technical, behavioral, and communication skills.
-🔍 Overview
+# MockIN: AI-Powered Mock Interview Platform
 
-Conventional interview prep tools often fall short in adaptability and realism. MockIN fills these gaps by providing:
+**Practice. Prepare. Perform.**
 
-    Personalized interview questions tailored to the user’s resume and job role
+---
 
-    Real-time evaluation using transformer-based NLP models
+## Description
 
-    Feedback on technical accuracy, fluency, confidence, and structure
+MockIN is an advanced and interactive AI-powered mock interview platform designed to help job seekers practice and improve their interview skills. Built with Next.js, Tailwind CSS, Gemini API, PostgreSQL, and Drizzle ORM, it provides users with a realistic interview experience to enhance their chances of landing their dream job.
 
-    Behavioral analytics to assess unconscious habits and stress indicators
+## Features
 
-    Scalable and secure cloud-native architecture (Next.js, PostgreSQL, Drizzle ORM)
+- **AI-driven Interviews:** Interview questions and feedback powered by AI.
+- **Personalized Experiences:** Tailor interview sessions based on job roles and industries.
+- **Experience-based Questions:** Questions are adjusted based on the user's experience level, ensuring relevance and appropriate difficulty.
+- **Detailed Feedback:** Receive insights on your performance, including strengths, areas for improvement, and actionable tips.
+- **Extensive Question Bank:** Access a wide range of interview questions across different domains and difficulty levels.
+- **Overall Grade:** Get an overall grade for each session, providing a quick assessment of your performance.
+- **Recent Interviews:** Easily access and review your recent interview sessions directly from the home page.
 
-✨ Key Features
+## Getting Started
 
-    🎯 Resume-Based Question Generation using Gemini API
+To get started with MockIN, follow these steps:
 
-    🤖 AI-driven multi-dimensional feedback: technical, communicative, and behavioral
+1. **Clone this repository:**
 
-    📈 Adaptive Difficulty Adjustment for skill-focused progression
+   ```bash
+   git clone https://github.com/modamaan/Ai-mock-Interview.git
+   ```
 
-    📊 Progress Analytics Dashboard with visual insights
+2. **Navigate to the project directory:**
 
-    🛡️ Bias Mitigation Algorithms for fair and ethical evaluations
+   ```bash
+   cd Ai-mock-Interview
+   ```
 
-    📱 Mobile-first, accessible UI built with Next.js and Tailwind CSS
+3. **Install dependencies:**
 
-    ⚙️ Modular backend powered by REST APIs, PostgreSQL, and Drizzle ORM
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-    🚀 Scalable Deployment using Docker & Kubernetes with Redis caching
+4. **Start the development server:**
 
-🧠 Tech Stack
+   ```bash
+   npm run dev -- -p 4000
+   # or
+   yarn dev
+   ```
 
-    Frontend: Next.js, React, Tailwind CSS
+5. **Access the application:**
 
-    Backend: Node.js, RESTful APIs
+   Open your browser and go to [http://localhost:3000](http://localhost:4000)
 
-    AI/NLP: Gemini API, BERT-based Transformers
+## Technologies Used
 
-    Database: PostgreSQL, Drizzle ORM
+- **Next.js:** A React framework for building server-side rendered and static web applications.
+- **Tailwind CSS:** Utility-first CSS framework for rapid UI development.
+- **Gemini API:** Provides an interface for accessing the AI interview functionalities.
+- **PostgreSQL:** A powerful, open-source object-relational database system.
+- **Neon Serverless:** Serverless deployment for PostgreSQL, offering scalability and ease of use.
+- **Drizzle ORM:** Simplifies and streamlines database interactions.
 
-    Containerization & Orchestration: Docker, Kubernetes
+## Usage
 
-    Security: HTTPS, AES-256, GDPR-compliant data processing
-
-📊 System Architecture
-
-    Modular microservices architecture
-
-    Real-time AI evaluation pipeline
-
-    Resume parser and dynamic question generator
-
-    Redis for caching frequent queries
-
-    Authentication and role-based access control (RBAC)
-
-🚀 Getting Started
-Prerequisites
-
-    Node.js 18+
-
-    PostgreSQL
-
-    Docker & Docker Compose (for production)
-
-    Gemini API credentials
-     Use Cases
-
-    Job seekers aiming to improve interview readiness
-
-    University career centers and training programs
-
-    EdTech platforms seeking AI-powered mock interview modules
-
-    Recruiters and placement agencies for candidate screening
-
-🛠 Architecture
-
-The platform is built on a modular, horizontally scalable architecture. Major components include:
-
-    Resume Parser Module
-
-    Adaptive Question Engine
-
-    Feedback Analyzer (NLP and behavioral scoring)
-
-    Progress Tracker Dashboard
-
-    Secure Auth and User Profile Management
-
-    Bias Mitigation and Explainable AI Layer
-
-📊 Key Metrics
-
-    Avg. question generation time: < 2 seconds
-
-    Feedback accuracy (F1-score): 0.91
-
-    User satisfaction (NPS): +58
-
-    Confidence improvement (beta users): +85%
-
-    Interview prep time reduced: ~30%
-
-🔐 Ethical AI & Security
-
-    Bias detection and mitigation for fair evaluations
-
-    AES-256 encryption for user data
-
-    GDPR-compliant data storage and access
-
-    Transparent scoring with explainable AI principles
-
-🔭 Future Scope
-
-    Multilingual interview support via neural machine translation
-
-    Video interview analytics using computer vision
-
-    Industry-specific benchmarking with real hiring rubrics
-
-    Federated learning for privacy-preserving personalization
-
-    Integration with job platforms (LinkedIn, Indeed)
-
-    Gamification: badges, leaderboards, performance-based coaching
-
-📄 Paper & Documentation
-
-This project is backed by a detailed research study conducted at Geethanjali College of Engineering and Technology (Department of IT).
-
-    📑 Download Full Research Paper (PDF)
-
-👨‍💻 Authors
-
-    Bonagiri Anish – 21r11a1208@gcet.edu.in
-
-    Kuppannan Sabarivasan – 21r11a1234@gcet.edu.in
-
-    Vavilala Abhinaya – 21r11a1260@gcet.edu.in
+- **Create an Account:** Sign up to start your mock interview sessions.
+- **Choose Interview Type:** Select the type of interview (e.g., technical, behavioral) and job role.
+- **Start Interview:** Begin your mock interview and respond to AI-generated questions.
+- **Receive Feedback:** After completing the interview, get detailed feedback and insights to improve.
+- **Review Recent Interviews:** Access your most recent interviews directly from the home page for quick review and continued improvement.
